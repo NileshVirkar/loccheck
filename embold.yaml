@@ -1,5 +1,8 @@
 version: 1
-# Sources mention which Files/Dirs to be taken for Analysis
+
+# Please visit https://embold.readme.io/docs/configuration-using-a-yaml-file 
+#  to know more about configurations available
+
 sources:
   #Files or Directories to be Excluded are mentioned in exclusions
   exclusions:
@@ -17,16 +20,19 @@ sources:
     - 'gulp'
     - 'grunt'
     - 'library'
-    - 'libs'
     - '.git'
-    - 'demosubproject'
-   
+    
 # Specify the languages you would like to Scan. Default is all Detected
-languages: 'JAVA'
+#languages: 'JAVA,CPP'
 
 
 # Define modules one would like to run or disable. This is enough for Basic Users
 # Get List of Modules (Which are Default Enabled/Disabled) at the documentation link above
-modules:
-  - name: pmd
-    enabled: true
+#modules:
+#  - name: pmd
+#    enabled: true
+#  - name: gamma_cxx
+#    enabled: false
+#  - name: jshint
+#    enabled: true
+
