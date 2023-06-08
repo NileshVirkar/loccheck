@@ -23,6 +23,7 @@ sources:
     - '.git'
     - 'Modules'
     - '.vscode'
+    - 'index.js'
     
 # Specify the languages you would like to Scan. Default is all Detected
 #languages: 'JAVA,CPP'
